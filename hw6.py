@@ -2,7 +2,7 @@ import  sqlite3
 
 
 
-db = sqlite3.connect('hw6.db')
+db = sqlite3.connect('hw7.db')
 c = db.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS
